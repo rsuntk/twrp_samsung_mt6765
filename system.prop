@@ -1,4 +1,4 @@
-ro.display.series=Samsung Galaxy A03
+ro.display.series=Galaxy A04
 ro.boot.dynamic_partitions=true
 sys.usb.config=mtp,adb
 ro.product.board=a04
