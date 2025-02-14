@@ -1,0 +1,5 @@
+ro.display.series=Samsung Galaxy A03
+ro.boot.dynamic_partitions=true
+sys.usb.config=mtp,adb
+ro.product.board=a04
+ro.board.platform=mt6765
