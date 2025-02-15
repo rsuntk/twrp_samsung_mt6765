@@ -7,10 +7,5 @@
 
 LOCAL_PATH := device/samsung/a04
 
-# Fastbootd
-PRODUCT_PACKAGES += \
-    android.hardware.fastboot@1.0-impl-mock \
-    fastbootd
-
 # Dynamic partition
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
