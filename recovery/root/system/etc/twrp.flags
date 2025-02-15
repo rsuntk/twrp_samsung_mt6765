@@ -1,8 +1,3 @@
-# Logical
-/system        ext4     system                                               flags=display=system;logical
-/vendor        ext4     vendor                                               flags=display=vendor;logical
-/product       ext4     product                                              flags=display=product;logical
-
 /boot                emmc      /dev/block/by-name/boot              flags=display="Boot Image";flashimg
 /recovery            emmc      /dev/block/by-name/recovery         flags=display="Recovery Image";flashimg
 
