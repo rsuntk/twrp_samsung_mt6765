@@ -1,4 +1,4 @@
-# Recovery device tree for samsung SM-A045F (a04)
+# Recovery device tree for samsung SM-A042F (a04e)
 
 ```
 #

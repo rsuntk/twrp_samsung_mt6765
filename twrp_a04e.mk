@@ -14,19 +14,19 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from a04 device
-$(call inherit-product, device/samsung/a04/device.mk)
+$(call inherit-product, device/samsung/a04e/device.mk)
 
 # Enable project quotas and casefolding for emulated storage without sdcardfs
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,device/samsung/a04/recovery/root,recovery/root)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,device/samsung/a04e/recovery/root,recovery/root)
 
-PRODUCT_DEVICE := a04
-PRODUCT_NAME := twrp_a04
+PRODUCT_DEVICE := a04e
+PRODUCT_NAME := twrp_a04e
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-A045F
+PRODUCT_MODEL := SM-A042F
 PRODUCT_MANUFACTURER := samsung
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
-BUILD_FINGERPRINT := samsung/a04xx/a04:12/SP1A.210812.016/A045FXXS8EXJ1:user/release-keys
+BUILD_FINGERPRINT := samsung/a04exx/a04e:12/SP1A.210812.016/A042FXXSAEYA3:user/release-keys

@@ -6,7 +6,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/samsung/a04
+DEVICE_PATH := device/samsung/a04e
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -123,7 +123,7 @@ BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 ## TWRP Configuration ##
 
 # Common
-TW_DEVICE_VERSION := Rissu_A04-v1
+TW_DEVICE_VERSION := Rissu_A04e-v1
 TW_THEME := portrait_hdpi
 TW_EXTRA_LANGUAGES := true
 TW_INPUT_BLACKLIST := "hbtp_vm"

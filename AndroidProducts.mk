@@ -7,9 +7,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_a04.mk
+    $(LOCAL_DIR)/twrp_a04e.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_a04-user \
-    twrp_a04-userdebug \
-    twrp_a04-eng
+    twrp_a04e-user \
+    twrp_a04e-userdebug \
+    twrp_a04e-eng
