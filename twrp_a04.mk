@@ -16,9 +16,6 @@ $(call inherit-product, vendor/twrp/config/common.mk)
 # Inherit from a04 device
 $(call inherit-product, device/samsung/a04/device.mk)
 
-# Enable project quotas and casefolding for emulated storage without sdcardfs
-$(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
-
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,device/samsung/a04/recovery/root,recovery/root)
 
 PRODUCT_DEVICE := a04
