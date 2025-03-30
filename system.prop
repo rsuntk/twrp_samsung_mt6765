@@ -1,5 +1,4 @@
 ro.display.series=Galaxy A04
 ro.boot.dynamic_partitions=true
 sys.usb.config=mtp,adb
-ro.product.board=a04
 ro.board.platform=mt6765
